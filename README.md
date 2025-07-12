@@ -3,7 +3,6 @@
 A modern, native Web Component to display your Pepecoin donation QR and address.  
 ✨ Works anywhere: React, Svelte, Vue, plain HTML, Wordpress, etc.
 
-Hosted free on [deno.land/x](https://deno.land/x).
 
 ---
 
@@ -20,7 +19,7 @@ Hosted free on [deno.land/x](https://deno.land/x).
 Add this to your HTML (replace `v1.0.0` with your actual tag):
 
 ```html
-<script src="https://deno.land/x/pepecoin_donation@v1.0.0/pepecoin-donation.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/owncook1/pepecoin-donation@v1.0.1/pepecoin-donation.js"></script>
 ````
 
 ---
@@ -65,19 +64,22 @@ If you don’t provide `title` or `color`, defaults are used.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <script src="https://deno.land/x/pepecoin_donation@v1.0.0/pepecoin-donation.js"></script>
-</head>
-<body>
-  <h1>Support Me with Pepecoin!</h1>
-  <pepecoin-donation
-    address="PEPE123abc..."
-    title="Buy me a coffee ☕"
-    color="#ff9800">
-  </pepecoin-donation>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Test Pepecoin Donate</title>
+        <script src="https://cdn.jsdelivr.net/gh/owncook1/pepecoin-donation@v1.0.1/pepecoin-donation.js"></script>
+
+    </head>
+    <body>
+        <pepecoin-donation
+            address="PqyhjZSdhQam4Biedt1uahE2gSdos38yo5"
+            title="Donate Pepecoin"
+        >
+        </pepecoin-donation>
+    </body>
 </html>
+
+
 ```
 
 ---
@@ -96,7 +98,7 @@ MIT
 
 ---
 
-## ✨ Created by [OwnCook](https://github.com/owncook)
+## ✨ Created by [OwnCook](https://github.com/owncook1)
 
 ```
 
